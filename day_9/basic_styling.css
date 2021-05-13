@@ -1,0 +1,100 @@
+body{
+    background-color: green;
+}
+.cricket{
+   background-color: wheat;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: crimson;
+    text-align: center;
+    text-decoration: solid;
+}
+.world_cup{
+    background-color: powderblue;
+    margin: 15px;
+    border: 5px dotted cornflowerblue;
+    padding: 20px 18px 22px 16px;
+}
+.world_cup h2{
+    color:black;
+}
+.link h2{
+    color: darkred;
+    text-align: justify;
+}
+.mylink:visited{
+    color: paleturquoise;
+}
+
+.mylink:hover{
+    color: darkmagenta;
+}
+
+.mylink:active{
+    color: rgb(27, 65, 27);
+}
+.button_style button{
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttons{
+    background-color: lightslategrey;
+    margin: 10px;
+    border: 5px solid peru;
+    padding: 20px;
+    text-align: left;
+}  
+.buttons button{
+    margin: 15px;
+    padding: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}  
+#btn1{
+    background-color: gold;
+    color: whitesmoke;
+}
+
+#btn1:hover{
+    color: green;
+    background-color:cornflowerblue;
+    border: 2px solid hotpink;
+}
+
+#btn2{
+    background-color: red;
+    color: #fff;
+    cursor: alias;
+    opacity: 0.5;
+}
+#btn2:hover{
+    color: green;
+    background-color: darkorange;
+    border: 2px solid hotpink;
+}
+#btn3{
+    background-color:black;
+    color: #fff;
+    cursor: alias;
+    opacity: 0.5;
+}
+#btn3:hover{
+    color: green;
+    background-color: darkkhaki;
+    border: 2px solid darkorchid;
+}
+#cric{
+    width:40px;
+    height:auto;
+}
