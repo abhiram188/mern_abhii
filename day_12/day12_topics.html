@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day12</title>
+    <style>
+        body{
+            background-color: darkorchid;
+        }
+        .box{
+            width: 200px;
+            height:200px;
+            position: absolute;
+            border: 1px solid darkorange;
+        }
+        #box1{
+            background: lightblue;
+            top: 100px;
+            left:150px;
+            z-index: 1;
+            margin:200px;
+        }
+        #box2{
+            background: lightgreen;
+            top: 100px;
+            left:200px;
+            z-index: 4;
+            margin:200px;
+        }
+        #box3{
+            background:lightcoral;
+            top: 100px;
+            left:250px;
+            z-index: 6;
+            margin:200px;
+        }
+        
+        .a {
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            transform: rotate(20deg);
+        }
+
+        .b {
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            transform: skewY(15deg);
+        }
+        .c {
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            transform: scaleY(1.4);
+        }
+        .cricket{
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 100px;
+            box-sizing: border-box;
+            transform: translate(25px,30px);
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="box" id="box1">A</div>
+    <div class="box" id="box2">B</div>
+    <div class="box" id="box3">C</div>
+    
+    <h1>cricket</h1>
+    <h2>rotate</h2>
+    <div class="a">batting</div>
+    <br>
+
+    <h2>skew</h2>
+    <div class="b">bowling</div>
+    <br>
+
+    <h2>scale</h2>
+    <div class="c">wk</div>
+    <div class="cricket">
+        <h2>cricket</h2>
+        
+        <p>
+            Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each .
+        </p>
+    </div>
+</body>
+</html>
