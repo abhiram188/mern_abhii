@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        *{
+            margin: 0; padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .bat{
+            height: 100vh;
+            width: 100vw;
+            background-color: lightgreen;
+            position: relative;
+        }
+        h1{
+            color:black;
+            font-size: 48px;
+            text-align: center;
+            padding-top: 50px;
+            transition: all 1s step-end;
+        }
+        h1:hover{
+            font-size: 80px;
+            color: red;
+            transform: rotateY(90deg) ;
+        }
+        .bowl{
+            height: 40vh;
+            width: 40vw;
+            background-color: #720be8;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            transition: all 3s ease-in-out;
+        }
+
+        .bowl:hover{
+            background-color: #ff3f34;
+            border-radius: 50%;
+            transform: rotate(180deg) ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bat">
+        <h1>CRICKET</h1>
+        <div class="bowl">
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .cricket{
+            height: 100vh;
+            width: 100vw;
+            background-color: #485460;
+            position: relative;
+        }
+        .bat{
+            width: 50%;
+            height: 50%;
+            background-color: #F8EFBA;
+           
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            animation: color_change 4s ease-in-out infinite alternate-reverse forwards;
+        }
+        .bat:hover{
+            animation-play-state: paused;
+        }
+        @keyframes color_change {
+            0%{
+                background-color: #009432;
+            }    
+            50%{
+                background-color: #1B1464;
+            }
+            100%{
+                background-color: #EA2027;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cricket">
+        <div class="bat">
+
+        </div>
+    </div>
+</body>
+</html>
